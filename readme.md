@@ -1,0 +1,7 @@
+# Power BI data residency & premium capacity
+1.	If project has PII data or data residency requirements, Power BI premium is required. As a Power BI Premium customer, you can deploy content to data centers in regions other than the home region of the Power BI tenant. [Multi-Geo support for Power BI Premium - Power BI](https://learn.microsoft.com/en-us/fabric/admin/service-admin-premium-multi-geo)
+2.	An on-premise data gateway can run multiple cloud services like Power BI, Power Automate, Power Apps, Logic Apps, Azure Analysis Services. 
+    * If using Power BI pro, the data will then be stored in the location of the default Power BI tenant . Refer the links [Where is data for the Power BI service stored?](https://learn.microsoft.com/en-us/fabric/admin/find-fabric-home-region) & [How the Power BI data region is selected?](https://www.youtube.com/watch?si=yCBwoVuZKVPPeNCC&t=40&v=0fOxaHJPvdM&feature=youtu.be)
+    * If using Power BI premium, the data can be stored in the location of your choice. 
+3. Power BI premium comes at a cost. Refer the link for cost - [Power BI service features by license type - Power BI](https://learn.microsoft.com/en-us/power-bi/fundamentals/service-features-license-type). BI Premium is a dedicated capacity license rather than per user licensing.
+4. The location where the data is stored is only visible to Power Platform admin. On the Power BI page, it always shows the default location where the Power BI tenant is hosted.
